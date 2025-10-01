@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Top 20 Filmes - A Locadora Pessoal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="logo">
+            <h1>A Locadora do Top 20</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Saiba Mais</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#share">Compartilhar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main-container">
+
+        <aside id="sidebar">
+            <h2>Lista de Filmes</h2>
+            <nav class="movie-list-nav">
+                <ol>
+                    <li><a href="#filme1">1. O Poderoso Chefão</a></li>
+                    <li><a href="#filme2">2. Um Sonho de Liberdade</a></li>
+                    <li><a href="#filme3">3. O Senhor dos Anéis: O Retorno do Rei</a></li>
+                    <li><a href="#filme4">4. A Origem</a></li>
+                    <li><a href="#filme5">5. Interestelar</a></li>
+                    <li><a href="#filme6">6. Pulp Fiction</a></li>
+                    <li><a href="#filme7">7. Um lugar silencioso</a></li>
+                    <li><a href="#filme8">8. Clube da Luta</a></li>
+                    <li><a href="#filme9">9. Rambo </a></li>
+                    <li><a href="#filme10">10. John Wick: De Volta ao Jogo</a></li>
+                    <li><a href="#filme11">11. Bastardos Inglórios</a></li>
+                    <li><a href="#filme12">12. Django Livre</a></li>
+                    <li><a href="#filme13">13. Cidade de Deus</a></li>
+                    <li><a href="#filme14">14. O Silêncio dos Inocentes</a></li>
+                    <li><a href="#filme15">15. Gladiador</a></li>
+                    <li><a href="#filme16">16. Os Infiltrados</a></li>
+                    <li><a href="#filme17">17. Whiplash</a></li>
+                    <li><a href="#filme18">18. Parasita</a></li>
+                    <li><a href="#filme19">19. Cidadão Kane</a></li>
+                    <li><a href="#filme20">20. De Volta para o Futuro</a></li>
+                </ol>
+            </nav>
+        </aside>
+
+        <main id="main-content">
+
+            <h2>O Meu Ranking Pessoal: A Locadora de Filmes Favoritos</h2>
+            <p>Role para ver os 20 filmes e clique nas opções "Emprestar" ou "Vender" para simular a transação.</p>
+
+            <!-- FILME 1 -->
+            <section class="movie-ranking" id="filme1">
+                <div class="ranking-header">
+                    <h3>#1: O Poderoso Chefão (1972)</h3>
+                    <span class="rank-number">1º Lugar</span>
+                </div>
+                <p>O clássico absoluto de Francis Ford Coppola que redefiniu o gênero da máfia e a arte do cinema.</p>
+                <img src="poderoso.jpg" alt="Poster O Poderoso Chefão" class="movie-poster">
+
+                <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 2 -->
+            <section class="movie-ranking" id="filme2">
+                <div class="ranking-header">
+                    <h3>#2: Um Sonho de Liberdade (1994)</h3>
+                    <span class="rank-number">2º Lugar</span>
+                </div>
+                <p>Uma emocionante história de esperança e amizade dentro de uma prisão.</p>
+                <img src="sonho.jpg" alt="Poster Um Sonho de Liberdade" class="movie-poster">
+
+                <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme2', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme2', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme2">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 3 -->
+            <section class="movie-ranking" id="filme3">
+                <div class="ranking-header">
+                    <h3>#3: O Senhor dos Anéis: O Retorno do Rei (2003)</h3>
+                    <span class="rank-number">3º Lugar</span>
+                </div>
+                <p>A batalha final pela Terra Média em uma obra-prima épica e emocionante.</p>
+                <img src="senhor dos anéis.jpg.webp" alt="Poster Senhor dos Anéis" class="movie-poster">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 4 -->
+            <section class="movie-ranking" id="filme4">
+                <div class="ranking-header">
+                    <h3>#4: A Origem (2010)</h3>
+                    <span class="rank-number">4º Lugar</span>
+                </div>
+                <p>Um quebra-cabeça de sonhos dentro de sonhos dirigido por Christopher Nolan.</p>
+                <img src="A origem.jpg" alt="Poster A Origem" class="movie-poster">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 5 -->
+            <section class="movie-ranking" id="filme5">
+                <div class="ranking-header">
+                    <h3>#5: Interestelar (2014)</h3>
+                    <span class="rank-number">5º Lugar</span>
+                </div>
+                <p>Uma jornada pelo espaço e pelo tempo que mistura ciência, amor e esperança.</p>
+                <img src="interestelar.jpg" alt="Poster Interestelar" class="movie-poster">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 6 -->
+            <section class="movie-ranking" id="filme6">
+                <h3>#6: Pulp Fiction (1994)</h3>
+                <p>Quentin Tarantino em sua obra-prima de diálogos afiados e histórias entrelaçadas.</p>
+                <img src="pulp.jpg" alt="Poster Pulp Fiction">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 7 -->
+            <section class="movie-ranking" id="filme7">
+                <h3>#7: Um lugar silencioso (2018)</h3>
+                <p>Um Lugar Silencioso apresenta uma realidade pós-apocalíptica aterrorizante, onde criaturas cegas, mas com audição extremamente aguçada, exterminaram grande parte da população mundial.</p>
+                <img src="silencioso.jpg" alt="Poster UM lugar silencioso">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 8 -->
+            <section class="movie-ranking" id="filme8">
+                <h3>#8: Clube da Luta (1999)</h3>
+                <p>Um olhar sombrio sobre o consumismo e a identidade, com um dos maiores plot twists da história.</p>
+                <img src="clube da luta.jpg" alt="Poster Clube da Luta">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 9 -->
+            <section class="movie-ranking" id="filme9">
+                <h3>#9: Rambo: Programado para Matar (1982)</h3>
+                <p> um veterano da Guerra do Vietnã que, após ser injustamente preso pelo xerife Will Teasle (Brian Dennehy) em uma pequena cidade, foge e inicia uma luta sangrenta contra a autoridade local.</p>
+                <img src="rambo.jpg" alt="Poster Rambo: Programado para Matar">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 10 -->
+            <section class="movie-ranking" id="filme10">
+                <h3>#10:John Wick: De Volta ao Jogo (2014)</h3>
+                <p>A história se concentra em John Wick, um assassino aposentado que busca vingança pelo roubo de seu carro e a morte de seu cachorro, um presente de sua esposa recentemente falecida.</p>
+                <img src="jhon w.jpg" alt="Poster Forrest Gump">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 11 -->
+            <section class="movie-ranking" id="filme11">
+                <h3>#11: Bastardos Inglórios (2009)</h3>
+                <p>Uma ousada visão alternativa da 2ª Guerra Mundial dirigida por Quentin Tarantino.</p>
+                <img src="bastardos.jpg.webp" alt="Poster Bastardos Inglórios">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 12 -->
+            <section class="movie-ranking" id="filme12">
+                <h3>#12: Django Livre (2012)</h3>
+                <p>Um faroeste moderno com muito estilo e uma trama de vingança inesquecível.</p>
+                <img src="django.jpg" alt="Poster Django Livre">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 13 -->
+            <section class="movie-ranking" id="filme13">
+                <h3>#13: Cidade de Deus (2002)</h3>
+                <p>Um retrato poderoso e impactante da vida nas favelas do Rio de Janeiro.</p>
+                <img src="cidade de deus.jpg" alt="Poster Cidade de Deus">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 14 -->
+            <section class="movie-ranking" id="filme14">
+                <h3>#14: O Silêncio dos Inocentes (1991)</h3>
+                <p>O clássico suspense que apresentou Hannibal Lecter ao mundo.</p>
+                <img src="inocentes.jpg" alt="Poster O Silêncio dos Inocentes">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 15 -->
+            <section class="movie-ranking" id="filme15">
+                <h3>#15: Gladiador (2000)</h3>
+                <p>A luta de um general romano por vingança e honra em arenas épicas.</p>
+                <img src="gladiador.jpg" alt="Poster Gladiador">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 16 -->
+            <section class="movie-ranking" id="filme16">
+                <h3>#16: Os Infiltrados (2006)</h3>
+                <p>Um eletrizante jogo de espionagem entre a máfia e a polícia de Boston.</p>
+                <img src="infiltrados.jpg" alt="Poster Os Infiltrados">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 17 -->
+            <section class="movie-ranking" id="filme17">
+                <h3>#17: Whiplash (2014)</h3>
+                <p>A obsessão pela perfeição no jazz levada ao limite entre aluno e mestre.</p>
+                <img src="whiplash.jpg" alt="Poster Whiplash">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 18 -->
+            <section class="movie-ranking" id="filme18">
+                <h3>#18: Parasita (2019)</h3>
+                <p>Uma crítica social genial que conquistou o Oscar de Melhor Filme.</p>
+                <img src="parasita.jpg" alt="Poster Parasita">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 19 -->
+            <section class="movie-ranking" id="filme19">
+                <h3>#19: Cidadão Kane (1941)</h3>
+                <p>Um dos filmes mais influentes da história do cinema, revolucionário em narrativa.</p>
+                <img src="cidadão kane.jpg" alt="Poster Cidadão Kane">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <!-- FILME 20 -->
+            <section class="movie-ranking" id="filme20">
+                <h3>#20: De Volta para o Futuro (1985)</h3>
+                <p>A icônica aventura no tempo de Marty McFly e Doc Brown.</p>
+                <img src="de volta para o futuro.jpg" alt="Poster De Volta para o Futuro">
+
+                 <div class="locadora-actions">
+                    <button onclick="simularLocacao('filme1', 'Emprestar')">Emprestar (R$ 5,00)</button>
+                    <button onclick="simularLocacao('filme1', 'Vender')">Vender (R$ 30,00)</button>
+                    <p id="status-filme1">Disponível para locação.</p>
+                </div>
+            </section>
+
+            <footer class="site-footer">
+                <p>&copy; 2025 Ranking Pessoal de Filmes. Todos os direitos reservados.</p>
+            </footer>
+
+            <script src="locadora.js"></script>
+        </main>
+    </div>
+
+</body>
+
+</html>
